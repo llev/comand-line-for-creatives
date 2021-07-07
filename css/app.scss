@@ -46,6 +46,10 @@ section {
   width: 60%;
 
   @include mq($mq-medium) {
+    width: 80%;
+  }
+
+  @include mq($mq-medium) {
     width: 95%;
   }
 
