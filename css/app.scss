@@ -1,0 +1,55 @@
+@import "reset";
+@import "type";
+
+$primary-color: darkslateblue;
+$body-font: "Archivo";
+$title-font: "Reforma";
+$body-size: 24px;
+$mq-large: 800px;
+$mq-medium: 600px;
+
+
+@mixin mq($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin center-vert () {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: $primary-color;
+  color: #ffffff;
+  font-family: $body-font;
+  line-height: 1.5;
+  font-size: $body-size;
+
+  height: 100vh;
+  @include center-vert()
+ }
+
+ h1,h2,h3,h4,h5,h6 {
+   font-family: $title-font;
+ }
+
+ h1 {
+   font-size: 9vmax;
+   font-weight: bold;
+ }
+
+section {
+  width: 60%;
+
+  @include mq($mq-medium) {
+    width: 95%;
+  }
+
+  p {
+    margin: 24px 0 0 0;
+  }
+}
