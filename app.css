@@ -73,7 +73,7 @@ input, textarea, select {
   src: url(fonts/Reforma2018-Blanca.woff), url(fonts/Reforma2018-Gris.woff), url(fonts/Reforma2018-Negra.woff);
 }
 body {
-  background-color: tomato;
+  background-color: darkslateblue;
   color: #ffffff;
   font-family: "Archivo";
   line-height: 1.5;
