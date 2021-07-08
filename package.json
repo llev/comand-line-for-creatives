@@ -1,0 +1,26 @@
+{
+  "name": "comand-line-for-creatives",
+  "version": "1.0.0",
+  "description": "SuperHi tutorial on the command line and dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llev/comand-line-for-creatives.git"
+  },
+  "keywords": [
+    "command",
+    "line"
+  ],
+  "author": "Lloyd Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llev/comand-line-for-creatives/issues"
+  },
+  "homepage": "https://github.com/llev/comand-line-for-creatives#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
